@@ -47,6 +47,7 @@ html, body {
     display: flex;
 }
 
+
 .button {
     background-color: #FDCE57;
     color: #000000;
@@ -65,3 +66,31 @@ html, body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
   
+
+@media screen and (max-width: 1265px) {
+
+    .logo {
+        position: absolute;
+        width: 177px;
+        height: 43px;
+    }
+
+    .button-container {
+        display: list-item;
+    }
+
+    .button {
+        font-size: 38px;
+        width: 280px;
+        height: 70px;
+        margin: 20px;
+    }
+
+    .name {
+        font-size: 70px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+}
