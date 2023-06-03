@@ -9,77 +9,109 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
-  }
+}
   
-  nav {
-    background-color: #F78301;
-    display: flex;
-    align-items: center;
-    height: 60px;
-    padding: 0 20px;
-  }
-  
-  .logo-button {
-    display: inline-block;
-    border-radius: 10px;
-    overflow: hidden;
-    width: 8%
-  }
-  
-  .logo-img {
-    display: block;
-    width: 100%;
-    border-radius: 10px;
-  }
-  
-  .nav-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    margin-left: auto;
-  }
-  
-  .nav-links li {
-    margin-right: 20px;
-  }
-  
-  .nav-links a {
-    color: #fff;
-    text-decoration: none;
-  }
+nav {
+  background-color: #F78301;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+}
 
-  .nav-links a.button {
-    display: inline-block;
-    background-color: #FDCE57;
-    border-radius: 10px;
-    padding: 10px;
-    color: black;
-    text-align: center;
-    text-decoration: none;    
-    font-family: "Gothic A1", sans-serif;
-    width: 100px;
-    height: 50%;
-  }
-  
-  .nav-links a.button:hover {
-    filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.3));
-  }
-  
-  
-  .profile img,
-  .logout img {
-    height: 30px;
-    margin-left: 10px;
-  }
-  
-  .profile a,
-  .logout a {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    text-decoration: none;
-  }
+.logo-button {
+  display: inline-block;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 8%
+}
+
+.logo-img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-links .button-a{
+  display: inline-block;
+  background-color: #FDCE57;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  text-decoration: none;    
+  font-family: "Gothic A1", sans-serif;
+  width: 100px;
+  height: 50%;
+
+}
+.nav-links .button-b{
+  display: inline-block;
+  background-color: #FDCE57;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  text-decoration: none;    
+  font-family: "Gothic A1", sans-serif;
+  width: 100px;
+  height: 50%;
+  margin-left: 10px;
+}
+.nav-links .button-c{
+display: inline-block;
+background-color: #FDCE57;
+border-radius: 10px;
+padding: 10px;
+color: black;
+text-align: center;
+text-decoration: none;    
+font-family: "Gothic A1", sans-serif;
+width: 100px;
+height: 50%;
+margin-left: 10px;
+}
+
+.nav-links .button-a:hover{
+filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.3));
+}
+
+.nav-links .button-b:hover{
+filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.3));
+}
+
+.nav-links .button-c:hover{
+filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.3));
+}
+
+.profile img {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
+  background-color: #FDCE57;
+  border-radius: 100px;
+  object-fit: cover;
+  padding: 5px; 
+}
+
+.logout img{
+height: 45px;
+width: 45px;
+max-height: 100px;
+max-width: 100px;
+margin-left: 5px;
+margin-top: 5px;
+ 
+}
   
   .course-page {
     display: flex;
