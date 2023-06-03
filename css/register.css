@@ -99,6 +99,20 @@ html, body {
   font-size: 20px;
 }
 
+#errorMessage {
+  color: red;
+  margin-top: 40px;
+  font-size: 28px;
+  text-align: center;
+  position:relative;
+  top: 80%;
+  left: 150%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  border-radius: 20px;
+ 
+  
+}
 
 
 
