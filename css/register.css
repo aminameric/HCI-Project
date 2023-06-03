@@ -83,6 +83,7 @@ html, body {
   width: 80%;
   margin:0 auto;
   font-size: 30px;
+  border: 1px solid #000000
 }
 
 .register .btn.login {
@@ -92,7 +93,7 @@ html, body {
   background: #FDCE57;
   border: none;
   border-radius: 20px;
-  top: 87%;
+  top: 90%;
   padding: 10px 0px;
   width: 100px;
   font-size: 20px;
