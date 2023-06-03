@@ -1,10 +1,10 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-image: url('../images/first_page.png');
+   /* background-image: url('../images/first_page.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     height: 99vh;
     width: 100%;
     margin: 0;
@@ -55,7 +55,7 @@ nav {
 }
 .nav-links .button-b{
     display: inline-block;
-    background-color: #ffffff;
+    background-color: #FDCE57;
     border-radius: 10px;
     padding: 10px;
     color: black;
@@ -115,12 +115,35 @@ nav {
 
 .profile-page {
     display: flex;
-    align-items: flex-start;
   }
   
   .left-section {
-    margin-right: 20px;
+    width: 30%;
+    margin: 30px;
   }
+  
+  .user-photo {
+    width: 40%;
+    height: 50%;
+    border-radius: 1%;
+    object-fit: cover;
+  }
+
+  .user-field {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .field-label {
+    font-weight: bold;
+  }
+  
+  .field-value {
+    margin-top: 5px;
+  }
+  
   
   .user-info p {
     margin: 10px 0;
@@ -132,10 +155,42 @@ nav {
   
   .right-section {
     flex-grow: 1;
+    margin: 30px;
   }
   
   .courses-section {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
     margin-bottom: 20px;
+    height: 60%;
+  }
+
+  .courses-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center buttons horizontally */
+  }
+  
+  .course-button {
+    background-color: #ffffff;
+    color: #F78301; /* Set the text color to orange */
+    border: 0.15px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    width: 95%;
+    font-size: 16px;
+    font-family: "Gothic A1", sans-serif; /* Use the Gothic A1 font */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  
+  .courses-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   
   .courses-section ul {
@@ -145,5 +200,11 @@ nav {
   
   .calendar-section {
     /* Style the calendar section */
+    
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 80%;
   }
   
