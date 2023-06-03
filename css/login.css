@@ -141,3 +141,39 @@ html, body {
     right: 10px;
     cursor: pointer;
   }
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px;
+    z-index: 9999;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 20px;
+}
+  
+.popup input[type="email"],
+.popup input[type="text"] {
+    text-align: left;
+}
+  
+.popup h3 {
+    text-align: left;
+}
+
+.popup button[type="submit"] {
+    background-color: #023047;;
+    color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+  .error-message {
+    color: red;
+}

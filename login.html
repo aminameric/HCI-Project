@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>
-            EduConnect
-        </title>
+<head>
+    <title>
+        EduConnect
+    </title>
 
-        <link href="css/login.css" rel="stylesheet">
-        <script src="popup.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/popup.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    </head>
+</head>
 
-    <body>
-     <div>   
-        
+<body>
+    <div>
+
         <!-- Adding the logo image -->
         <div class="logo">
             <img src="images/logo.png" alt="EduConnect" class="logo">
         </div>
         <h3 class="login-title">Login</h3>
         <div class="login px-0">
-          
+
             <form>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" >
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1">
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
-                <button type="submit" class="btn login" onclick="myFunction()">Login</button>
+                <button type="submit" class="btn login" onclick="myFunction(event)">Login</button>
                 <button type="submit" class="btn forgot-password" onclick="openPopup(event)">Forgot password?</button>
-
+            </form>
                 <div id="popup" class="popup">
                     <span onclick="closePopup()" class="close">&times;</span>
-                    <h3>Forgot Password</h3>
-                    <input type="email" placeholder="Enter your email">
+                    <h3>Enter email:</h3>
+                    <input type="email" placeholder="Enter your email" id="emailInput">
+                    <h3>Enter captcha:</h3>
                     <img src="images/captcha_image.png" alt="Captcha Image">
-                    <input type="text" placeholder="Enter the captcha">
-                    <button type="submit" onclick="submitForm()">Submit</button>
-              </form>
+                    <input type="text" placeholder="Enter the captcha" id="captchaInput">
+                    <div id="captchaErrorMessage" class="error-message"></div>
+                    <button type="submit" onclick="submitForm(event)">Submit</button>
+                </div>
             
+
         </div>
-       
-        
-     </div>   
-    </body>
+
+
+    </div>
+    <script src="js/popup.js"></script>
+</body>
 
 </html>

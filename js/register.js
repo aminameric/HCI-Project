@@ -37,6 +37,3 @@ form.addEventListener('submit', function(event) {
 
 
 
-
-
-//, onclick="validateEmail()"
