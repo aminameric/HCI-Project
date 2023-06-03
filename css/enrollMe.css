@@ -1,0 +1,218 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/enroll_me.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 99vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+nav {
+    background-color: #F78301;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+}
+  
+.logo-button {
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 8%
+}
+  
+.logo-img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+  
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: auto;
+}
+  
+.nav-links .button-a{
+    display: inline-block;
+    background-color: #FDCE57;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;    
+    font-family: "Gothic A1", sans-serif;
+    width: 100px;
+    height: 50%;
+  
+}
+.nav-links .button-b{
+    display: inline-block;
+    background-color: #FDCE57;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;    
+    font-family: "Gothic A1", sans-serif;
+    width: 100px;
+    height: 50%;
+    margin-left: 10px;
+}
+.nav-links .button-c{
+  display: inline-block;
+  background-color: #FDCE57;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  text-decoration: none;    
+  font-family: "Gothic A1", sans-serif;
+  width: 100px;
+  height: 50%;
+  margin-left: 10px;
+}
+
+.nav-links .button-a:hover{
+  filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.3));
+}
+
+.nav-links .button-b:hover{
+  filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.3));
+}
+
+.nav-links .button-c:hover{
+  filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.3));
+}
+
+
+.profile img {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: #FDCE57;
+    border-radius: 100px;
+    object-fit: cover;
+    padding: 5px; 
+}
+.logout img{
+  height: 45px;
+  width: 45px;
+  max-height: 100px;
+  max-width: 100px;
+  margin-left: 5px;
+  margin-top: 5px;
+   
+}
+
+.enrollMe-title {
+    margin-top: 70px;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+
+    width: 400px;
+    height: 40px;
+    background-color: #f6f6f6;
+    border: 2px solid #2e3532;
+    border-radius: 8px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    margin-top: -280px;
+}
+  
+.search-box .search-input {
+    width: 400px;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    padding-left: 40px;
+    font-size: 16px;
+}
+  
+.search-icon {
+    font-size: 20px;
+    color: #2e3532;    
+    position: absolute;
+    left: 570px;
+}
+.recommended-title{
+    margin-top: 15px;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items:start;
+    justify-content:start;
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+    margin-left: 550px;
+}
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    background-color: #FBFBFB;
+    width:650px;
+    height: 370px;
+    margin-top: -20px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+.button-container .button{
+    width:220px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 40px 30px ;
+  
+  background: #f6f6f6;
+  border: 1px solid #2E3532;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  white-space: nowrap;
+}

@@ -163,19 +163,18 @@ nav {
 
 }
 .button-courses-container .button {
-  display: flex;
-  
+  display: flex; 
   margin-bottom: 10px;
   color: #F78301;
   background: #FBFBFB;
   border: 1px solid #2E3532;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
-  width: 350px; /* Adjust the width as needed */
-  height: 20px; /* Adjust the height as needed */
+  width: 350px; 
+  height: 20px; 
   max-height: 100%;
-  padding: 25px; /* Adjust the padding as needed */
-  font-size: 20px; /* Adjust the font size as needed */
+  padding: 25px; 
+  font-size: 20px; 
   align-items: center;
   text-align: left;
 }
@@ -189,11 +188,11 @@ nav {
   border: 1px solid #2E3532;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
-  width: 350px; /* Adjust the width as needed */
-  height: 20px; /* Adjust the height as needed */
+  width: 350px; 
+  height: 20px; 
   max-height: 100%;
-  padding: 25px; /* Adjust the padding as needed */
-  font-size: 20px; /* Adjust the font size as needed */
+  padding: 25px; 
+  font-size: 20px; 
   align-items: center;
   text-align: left;
 }
