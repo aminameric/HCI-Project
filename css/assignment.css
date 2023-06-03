@@ -1,0 +1,202 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/assignments_page.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 99vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav {
+    background-color: #F78301;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+}
+  
+.logo-button {
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 8%
+}
+  
+.logo-img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+  
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: auto;
+}
+  
+.nav-links .button-a{
+    display: inline-block;
+    background-color: #FDCE57;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;    
+    font-family: "Gothic A1", sans-serif;
+    width: 100px;
+    height: 50%;
+  
+}
+.nav-links .button-b{
+    display: inline-block;
+    background-color: #FDCE57;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;    
+    font-family: "Gothic A1", sans-serif;
+    width: 100px;
+    height: 50%;
+    margin-left: 10px;
+}
+.nav-links .button-c{
+  display: inline-block;
+  background-color: #FDCE57;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  text-decoration: none;    
+  font-family: "Gothic A1", sans-serif;
+  width: 100px;
+  height: 50%;
+  margin-left: 10px;
+}
+
+.nav-links .button-a:hover{
+  filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.3));
+}
+
+.nav-links .button-b:hover{
+  filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.3));
+}
+
+.nav-links .button-c:hover{
+  filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.3));
+}
+
+
+.profile img {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: #FDCE57;
+    border-radius: 100px;
+    object-fit: cover;
+    padding: 5px; 
+}
+.logout img{
+  height: 45px;
+  width: 45px;
+  max-height: 100px;
+  max-width: 100px;
+  margin-left: 5px;
+  margin-top: 5px;
+   
+}
+.assignment-page{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-assignment-container{
+    width: 70%;
+    height: 70%;    
+    border: 0.15px solid black;
+    border-radius: 10px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+    padding: 80px;
+    padding-top: 50px;
+    position: relative;
+    margin-left: 80px;
+}
+.button-assignment-container .title{
+    font-family: 'Gothic A1';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 65px;
+  color: #2E3532;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+.button1{
+    background-color: #ffffff;
+    color: black; 
+    border: 0.15px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 95%;
+    font-size: 16px;
+    text-align: left;
+    font-family: "Gothic A1", sans-serif; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.button2{
+    background-color: #ffffff;
+    color:#F78301;
+    border: 0.15px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 95%;
+    font-size: 16px;
+    text-align: left;
+    font-family: "Gothic A1", sans-serif; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.button-add{
+    background-color: #023047;
+    color:#F6F6F6;
+    border: 0.15px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 95%;
+    font-size: 16px;
+    text-align: left;
+    font-family: "Gothic A1", sans-serif; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.submit{
+    position: absolute; 
+    bottom: 50px; 
+    right: 70px;    
+    width: 195px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #F78301;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Gothic A1", sans-serif; 
+    cursor: pointer;
+}
