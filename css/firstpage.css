@@ -126,10 +126,95 @@ nav {
   border: 1px solid #2E3532;
   border-radius: 25px;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
   
 }
 
-.first-page span{
+.first-page .title {
+  font-family: 'Gothic A1';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+  color: #2E3532;
+  margin-bottom: 20px;
+}
+
+.first-page .image {
+  margin-left: auto;
+  margin-top: -40px;
+}
+.first-page .image img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+
+.button-courses-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.button-courses-container .button {
+  display: flex;
+  
+  margin-bottom: 10px;
+  color: #F78301;
+  background: #FBFBFB;
+  border: 1px solid #2E3532;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  width: 350px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  max-height: 100%;
+  padding: 25px; /* Adjust the padding as needed */
+  font-size: 20px; /* Adjust the font size as needed */
+  align-items: center;
+  text-align: left;
+}
+
+.button-courses-container .button-new{
+  display: flex;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+  color: #FBFBFB;
+  background: #F78301;
+  border: 1px solid #2E3532;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  width: 350px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  max-height: 100%;
+  padding: 25px; /* Adjust the padding as needed */
+  font-size: 20px; /* Adjust the font size as needed */
+  align-items: center;
+  text-align: left;
+}
+
+.second-page{
+  /*box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;*/
+  position: absolute;
+  width: 800px;
+  height: 520px;
+  left: 650px;
+  top: 120px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  
+  background: #F6F6F6;
+  border: 1px solid #2E3532;
+  border-radius: 25px;
+  text-align: left;
+  
+}
+
+.second-page span{
   display: inline-block;
   vertical-align: middle;
   margin-left: 20px;
@@ -142,17 +227,111 @@ nav {
   color: #2E3532
 }
 
+.button-assignments-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-.first-page .button-courses-container .button{
-  display: block;
+.button-assignments-container .button1 {
+  width:220px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-right: 10px;
   margin-bottom: 10px;
-  color:  #F78301;
+  padding: 40px 30px ;
+  
+  background: #023047;
+  border: 1px solid #2E3532;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+}
 
+.button-assignments-container .button1 .text span{
+  font-size: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.button-assignments-container .button2 {
+  width:220px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 40px 30px ;
+  
   background: #FBFBFB;
   border: 1px solid #2E3532;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 15px;
-  width:80%
-  
+  border-radius: 10px;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+}
 
+.text {
+  display: block;
+  font-size: 5px;
+  margin-top: -10px;
+  margin-bottom: -18px;
+  margin-right: 13px;
+  padding:7px;
+  font-family: 'Gothic 1', sans-serif;
+}
+
+.text:nth-child(1) {
+  font-family: 'Gothic 1', sans-serif;
+  color: #FBFBFB;
+  font-size: 15px;
+}
+
+.text:nth-child(2) {
+  font-family: 'Gothic 1', sans-serif;
+  color: #FDCE57;
+  font-size: 18px;
+}
+
+.text:nth-child(3) {
+  font-family: 'Gothic 1', sans-serif;
+  color: #FBFBFB;
+  font-size: 18px;
+}
+
+.text1{
+  display: block;
+  font-size: 5px;
+  margin-top: -10px;
+  margin-bottom: -18px;
+  margin-right: 25px;
+  padding:7px;
+  font-family: 'Gothic 1', sans-serif;
+}
+.text1:nth-child(1) {
+  font-family: 'Gothic 1', sans-serif;
+  color: #2E3532;
+  font-size: 15px;
+}
+
+.text1:nth-child(2) {
+  font-family: 'Gothic 1', sans-serif;
+  color: #F78301;
+  font-size: 18px;
+}
+
+.text1:nth-child(3) {
+  font-family: 'Gothic 1', sans-serif;
+  color: #2E3532;
+  font-size: 18px;
 }
