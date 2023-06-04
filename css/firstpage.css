@@ -134,13 +134,16 @@ nav {
 
 
 .first-page .title {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 3%;
+  margin-top: 0.05%;;
   font-family: 'Gothic A1';
   font-style: normal;
-  font-weight: 600;
-  font-size: 35px;
-  line-height: 50px;
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 4vw; 
   color: #2E3532;
-  margin-bottom: 20px;
 }
 
 .first-page .image {
@@ -214,72 +217,76 @@ nav {
 }
 
 
-.second-page span{
+.second-page span {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 20px;
+  margin-left: 3%; 
+  margin-top: 2.5%;
   font-family: 'Gothic A1';
   font-style: normal;
-  font-weight: 600;
-  font-size: 35px;
-  line-height: 50px;
-
-  color: #2E3532
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 4vw; 
+  color: #2E3532;
 }
+
 
 .button-assignments-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: flex-start;
+
 }
 
 .button-assignments-container .button1 {
-  width:220px;
-  height: 130px;
+  width: 25%;
+  height: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 5px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  padding: 40px 30px ;
-  
+  margin-top: 0.5%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  padding: 0.1vw 0.1vw; /* Adjust the value based on the button's width and height */
   background: #023047;
   border: 1px solid #2E3532;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  font-size: 12px;
+  font-size: 1vw; /* Adjust the value based on the button's width */
   text-align: center;
   white-space: nowrap;
 }
 
-.button-assignments-container .button1 .text span{
-  font-size: 10px;
-  margin-bottom: 5px;
-  margin-top: 5px;
+
+.button-assignments-container .button1 .text span {
+  font-size: 20vw; /* Adjust the value based on the container's width */
+  margin-bottom: 10vw; /* Adjust the value based on the container's height */
+  margin-top: 5vw; /* Adjust the value based on the container's height */
 }
 
 .button-assignments-container .button2 {
-  width:220px;
-  height: 130px;
+  width: 25%;
+  height: 20%; /* Adjust the value based on the container's height */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 5px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  padding: 40px 30px ;
+  margin-top: 0.5%; /* Adjust the value based on the container's height */
+  margin-right: 2%;
+  margin-bottom: 2%; /* Adjust the value based on the container's height */
+  padding: 0.vw 0.1vw; /* Adjust the value based on the container's dimensions */
   
   background: #FBFBFB;
   border: 1px solid #2E3532;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  font-size: 12px;
+  font-size: 1vw; /* Adjust the value based on the container's width */
   text-align: center;
   white-space: nowrap;
 }
+
 
 .text {
   display: block;
