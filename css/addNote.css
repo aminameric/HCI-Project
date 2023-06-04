@@ -125,6 +125,7 @@ margin-top: 5px;
   height: 300px;
   font-size: 16px;
   padding: 10px;
+  font-family: "Gothic A1", sans-serif; 
 }
 
 .submit-button {
@@ -139,6 +140,7 @@ margin-top: 5px;
     font-family: "Gothic A1", sans-serif; 
     color: #f2f2f2;
     cursor: pointer;
+    font-family: "Gothic A1", sans-serif; 
 }
 
 .grey-button {
@@ -153,4 +155,5 @@ margin-top: 5px;
     font-family: "Gothic A1", sans-serif; 
     color: #f2f2f2;
     cursor: pointer;
+    font-family: "Gothic A1", sans-serif; 
 }
