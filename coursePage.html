@@ -3,10 +3,10 @@
 
     <head>
         <title>EduConnect</title>
-
+        <link href="css/logout.css" rel="stylesheet">
         <link href="css/coursePage.css" rel="stylesheet">
         <script src="js/coursePage.js"></script>
-             
+        <script src="js/logout.js"></script>    
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     </head>
@@ -26,7 +26,12 @@
           <a href="profile.html"><img src="images/profile.png" alt="Profile"></a>
         </div>
         <div class="logout">
-          <a href="#"><img src="images/logout.png" alt="Logout"></a>
+          <a href="#" onclick="showLogoutPopup()"><img src="images/logout.png" alt="Logout"></a>
+        </div>
+        <div id="logoutPopup" class="popup1">
+          <h3>Are you sure you want to log out?</h3>
+          <button onclick="confirmLogout()">Yes</button>
+          <button onclick="cancelLogout()">No</button>
         </div>
     
       </nav>
