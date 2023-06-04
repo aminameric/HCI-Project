@@ -162,14 +162,16 @@ nav {
 
 .button-courses-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-direction: column;
   max-height: 100%;
 
 }
 .button-courses-container .button {
   display: flex; 
-  margin-bottom: 1.5%;
+  margin-top: 0.5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
   color: #F78301;
   background: #FBFBFB;
   border: 1px solid #2E3532;
@@ -178,7 +180,8 @@ nav {
   width: 200%; 
   height: 45%; 
   max-height: 100%;
-  padding: 9%; 
+  /*padding: 9%; */
+  padding: 1.2vw 0.1vw;
   font-size: 150%; 
   align-items: center;
   text-align: left;
