@@ -1,14 +1,15 @@
 html, body {
     margin: 0;
     padding: 0;
-   /* background-image: url('../images/first_page.png');
+    background-image: url('../images/profilePage.PNG');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     height: 99vh;
     width: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
   
 nav {
@@ -117,75 +118,76 @@ nav {
     display: flex;
   }
   
-  .left-section {
-    width: 30%;
-    margin: 30px;
-    font-family: "Gothic A1", sans-serif;
-  }
+.left-section {
+  width: 30%;
+  margin: 30px;
+  font-family: "Gothic A1", sans-serif;
+}
   
-  .user-photo {
-    width: 250px;
-    height: 350px;
-    border-radius: 1%;
-    object-fit: contain;
-  }
+.user-photo {
+  width: 250px;
+  height: 350px;
+  border-radius: 1%;
+  object-fit: contain;
+}
 
-  .user-field {
-    background-color: #f2f2f2;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
+.user-field {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
   
-  .field-label {
-    font-weight: bold;
-  }
+.field-label {
+  font-weight: bold;
+}
   
-  .field-value {
-    margin-top: 5px;
-  }
+.field-value {
+  margin-top: 5px;
+}
   
-  .user-info p {
-    margin: 10px 0;
-  }
+.user-info p {
+  margin: 10px 0;
+}
   
-  .user-info span {
-    font-weight: bold;
-  }
+.user-info span {
+  font-weight: bold;
+}
   
-  .right-section {
-    flex-grow: 1;
-    margin: 30px;
-  }
+.right-section {
+  flex-grow: 1;
+  margin: 30px;
+}
   
-  .courses-section {
-    background-color: #f2f2f2;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 20px;
-    height: 30%;
-  }
+.courses-section {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 19%;  
+  overflow-y: scroll;
+}
 
-  .courses-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-  }
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
   
-  .course-button {
-    background-color: #ffffff;
-    color: #F78301;
-    border: 0.15px solid black;
-    border-radius: 10px;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    width: 95%;
-    font-size: 16px;
-    font-family: "Gothic A1", sans-serif;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    text-align: left;
-  }
+.course-button {
+  background-color: #ffffff;
+  color: #F78301;
+  border: 0.15px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  width: 95%;
+  font-size: 16px;
+  font-family: "Gothic A1", sans-serif;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  text-align: left;
+}
 
 .courses {
   text-align: center;
@@ -194,10 +196,10 @@ nav {
   padding: 10px;
 }
   
-  .calendar-section {    
-    background-color: #f2f2f2;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 20px;
-    height: 670px;
-  }
+.calendar-section {    
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 670px;
+}
