@@ -7,3 +7,8 @@ function inAddButton(event) {
   event.preventDefault();
   window.location.href = "notes.html";
 }
+
+function viewNote(event) {
+  event.preventDefault();
+  window.location.href = "viewNote.html";
+}
