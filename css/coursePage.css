@@ -104,53 +104,148 @@ filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.3));
 }
 
 .logout img{
-height: 45px;
-width: 45px;
-max-height: 100px;
-max-width: 100px;
-margin-left: 5px;
-margin-top: 5px;
- 
+  height: 45px;
+  width: 45px;
+  max-height: 100px;
+  max-width: 100px;
+  margin-left: 5px;
+  margin-top: 5px;
 }
   
-  .course-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
+.course-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh-60px);
+  font-family: "Gothic A1", sans-serif; 
+}
+
+.title {
+  font-size: 70px;
+  font-family: "Gothic A1", sans-serif; 
+  padding: 50px;
+}
   
-  .progress-bar {
-    /* Style the progress bar */
-  }
+.progress-bar {
+  width: 60%;
+  height: 10px;
+  background-color: #F78301;
+  position: relative;
+  margin: 20px;
+}
+
+.progress-line {
+  width: 0%;
+  height: 100%;
+  background-color: #F78301;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: width 0.5s;
+}
+
+.progress-circles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+}
+
+.orange {
+  background-color: #F78301;
+}
+
+.yellow {
+  background-color: #FDCE57;
+}
+
+.content-box {
+  background-color: #f1f1f1;
+  padding: 20px;
+  width: 60%;
+  height: 80%;
+  margin-top: 50px;
+  border: 0.15px solid black;
+  border-radius: 10px;
+}
   
-  .content-box {
-    background-color: #f1f1f1;
-    padding: 20px;
-    width: 60%;
-    height: 50%;
-    margin-top: 20px;
-  }
+.week-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.week {
+  font-size: 40px;
+  text-align: left;
+  font-family: "Gothic A1", sans-serif; 
+  padding: 10px;
+}
   
-  .week-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
-  }
+.view-notes {
+  background-color: #F78301;
+  color: white; 
+  border: 0.15px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 5%;
+  font-size: 16px;
+  text-align: left;
+  font-family: "Gothic A1", sans-serif; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
   
-  .view-notes {
-    /* Style the "View Notes" button */
-  }
+.buttons-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
   
-  .buttons-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .buttons-section button {
-    margin-bottom: 10px;
-  }
-  
+.material-button {
+  background-color: #ffffff;
+  color: #F78301; 
+  border: 0.15px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  font-size: 20px;
+  text-align: left;
+  font-family: "Gothic A1", sans-serif; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.assignment-button {
+  background-color: #023047;
+  color: white; 
+  border: 0.15px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 90%;
+  font-size: 20px;
+  text-align: left;
+  font-family: "Gothic A1", sans-serif; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  margin-bottom: 50px;
+}
