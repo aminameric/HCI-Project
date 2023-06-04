@@ -203,3 +203,24 @@ nav {
   margin-bottom: 20px;
   height: 670px;
 }
+
+@media screen and (max-width: 1265px) {
+
+  html, body {
+    overflow: auto;
+  }
+
+  .profile-page {
+    flex-direction: column;
+  }
+
+  .left-section {
+    width: 95%;
+    margin: 5%;
+  }
+
+  .user-field {
+    width: 90%;
+  }
+
+}
