@@ -5,6 +5,7 @@
         <title>EduConnect</title>
 
         <link href="css/coursePage.css" rel="stylesheet">
+        <script src="js/coursePage.js"></script>
              
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -59,19 +60,17 @@
             <div class="content-box">
               <div class="week-section">
                 <div class="week">Week 11</div>
-                <button class="view-notes">View Notes</button>
+                <button class="view-notes" onclick="note(event)">View Notes</button>
               </div>
               <div class="buttons-section">
-                <button class="material-button">Lecture Material</button>
-                <button class="material-button">Lab Material</button>
-                <button class="material-button">Additional Material</button>
-                <button class="assignment-button">Assignment Name</button>
+                <button class="material-button" onclick="material(event)">Lecture Material</button>
+                <button class="material-button" onclick="material(event)">Lab Material</button>
+                <button class="material-button" onclick="material(event)">Additional Material</button>
+                <button class="assignment-button" onclick="assignment(event)">Assignment Name</button>
               </div>
             </div>
 
-        </div>
-          
-          
+        </div>          
 
     </body>
 
