@@ -1,5 +1,4 @@
-var myButton = document.getElementById('char-choice');
-
-myButton.addEventListener('click', function() {
-  window.location.href = 'login.html';
-});
+function chat(event) {
+    event.preventDefault();
+    window.location.href = "chat.html";
+}
