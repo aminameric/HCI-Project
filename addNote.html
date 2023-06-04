@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>EduConnect</title>
+    <link href="css/logout.css" rel="stylesheet">
+    <link href="css/addNote.css" rel="stylesheet">
+    <script src="js/notes.js"></script>
+    <script src="js/logout.js"></script>
+         
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <nav>
+        <a href="first_page.html" class="logo-button">
+          <img src="images/logo.png" alt="Logo" class="logo-img">
+        </a>
+        <ul class="nav-links">
+          <li><a class="button-a" href="enrollMe.html">Search</a></li>
+          <li><a class="button-b" href="first_page.html">Home</a></li>
+          <li><a class="button-c" href="chat.html">Chat</a></li>
+        </ul>
+        <div class="profile">
+          <a href="profile.html"><img src="images/profile.png" alt="Profile"></a>
+        </div>
+        <div class="logout">
+          <a href="#" onclick="showLogoutPopup()"><img src="images/logout.png" alt="Logout"></a>
+        </div>
+        <div id="logoutPopup" class="popup1">
+          <h3>Are you sure you want to log out?</h3>
+          <button onclick="confirmLogout()">Yes</button>
+          <button onclick="cancelLogout()">No</button>
+        </div>
+    
+      </nav>
+
+
+    <div class="note-form">
+
+        <input type="text" class="note-textarea" placeholder="Type your message...">
+
+        <button class="grey-button" onclick="inAddButton(event)">Private</button>
+        <button class="grey-button" onclick="inAddButton(event)">Public</button>
+        <button class="grey-button" onclick="inAddButton(event)">Delete</button>
+        <button class="submit-button" onclick="inAddButton(event)">Post</button>
+
+    </div>
+
+</body>
+
+</html>

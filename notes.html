@@ -31,19 +31,19 @@
           <a href="#" onclick="showLogoutPopup()"><img src="images/logout.png" alt="Logout"></a>
         </div>
         <div id="logoutPopup" class="popup1">
-            <h3>Are you sure you want to log out?</h3>
-            <button onclick="confirmLogout()">Yes</button>
-            <button onclick="cancelLogout()">No</button>
-          </div>
+          <h3>Are you sure you want to log out?</h3>
+          <button onclick="confirmLogout()">Yes</button>
+          <button onclick="cancelLogout()">No</button>
+        </div>
     
-    </nav>
+      </nav>
 
     <div class="notes-page">
 
         <div class="title">Notes</div>
 
         
-        <button class="add">
+        <button class="add" onclick="addNote(event)">
             +Add note
         </button>
         
