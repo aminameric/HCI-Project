@@ -111,7 +111,9 @@ max-width: 100px;
 margin-left: 5px;
 margin-top: 5px;
  
-}.container {
+}
+
+.container {
     display: flex;
     height: calc(100vh - 60px); 
     font-family: "Gothic A1", sans-serif;
@@ -279,4 +281,30 @@ margin-top: 5px;
   
   .emoji-icon {
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 1265px) {
+
+    .container {
+      width: 100%;
+    }
+
+    .right-section {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .chat-container {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .left-content {
+      position: absolute;
+    }
+    
+    .icons-container {
+      position:absolute;
+    }
+    
   }

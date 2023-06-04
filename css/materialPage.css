@@ -212,3 +212,19 @@ nav {
     cursor: pointer;
 }
   
+
+@media screen and (max-width: 600px) {
+
+    html, body {
+      overflow: auto;
+    }
+  
+    .left-section {
+        display: none;
+    }
+
+    .right-section {
+        margin: 20px;
+    }
+  
+  }

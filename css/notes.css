@@ -206,3 +206,13 @@ margin-top: 5px;
     color: #f2f2f2;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1265px) {
+
+  html, body {
+    overflow: auto;
+  }
+
+ 
+
+}

@@ -249,3 +249,47 @@ filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.3));
   cursor: pointer;
   margin-bottom: 50px;
 }
+
+@media screen and (max-width: 640px) {
+
+  html, body {
+    overflow: auto;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .progress-bar {
+      transform: rotate(90deg);
+      transform-origin: top right;
+      width: 80vh; 
+      height: 10px;
+      position: fixed;
+      bottom: 25px;
+      right: 5px;
+      margin: 25px;
+  }
+
+.content-box {
+  font-size: 16px;
+  position: relative;
+  width: auto;
+}
+
+.week {
+  font-size: 16px;
+}
+.assignment-button {
+  font-size: 16px;
+}
+
+.material-button {
+  font-size: 16px;
+}
+
+.view-notes {
+  font-size: 16px;
+}
+
+}
