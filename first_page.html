@@ -31,55 +31,66 @@
         
         </nav>
         <div class="first-page">
-          <div class="title">Courses
-          <div class="image"><img src="images/menu_moreoptions.png" alt="Image"></div>
+          <div class="title">Courses</div>
+            <div class="image"><img src="images/menu_moreoptions.png" alt="Image" onClick="togglePopup()"></div>
+            <div id="popup" class="popup">
+              <span onclick="togglePopup()" class="close">&times;</span>
+              <h3>Options</h3>
+              <button onclick="removeSubjects()">Remove Subjects</button>     
+              <select id="sort-dropdown">
+                <option value="alphabetical">Sort by Alphabetical</option>
+                <option value="lastUsed">Sort by Last Used</option>
+              </select>
+      
+              
+            </div>
+
         <div class="button-courses-container">
-            <button class="button" onclick="myFunction()">Data Structures</button>
-            <button class="button" onclick="myFunction()">Data Structures</button>
-            <button class="button" onclick="myFunction()">Data Structures</button>
-            <button class="button" onclick="myFunction()">Data Structures</button>
-            <button class="button" onclick="myFunction()">Data Structures</button>
-            <button class="button" onclick="myFunction()">Data Structures</button>
-            <button class="button-new" onclick="myFunction()">+ Add new Course</button>
+            <button class="button" onclick="myFunction(event)">Data Structures</button>
+            <button class="button" onclick="myFunction(event)">Data Structures</button>
+            <button class="button" onclick="myFunction(event)">Data Structures</button>
+            <button class="button" onclick="myFunction(event)">Data Structures</button>
+            <button class="button" onclick="myFunction(event)">Operating Systems</button>
+            <button class="button" onclick="myFunction(event)">Data Structures</button>
+            <button class="button-new" onclick="myFunction1(event)">+ Add new Course</button>
         </div>
     </div>
-  </div>
     <div class="second-page">
       <span>Assignments</span>  
   <div class="button-assignments-container">
-      <button class="button1" onclick="myFunction()"><span class="text">06.06.2023.</span>
+      <button class="button1" onclick="myFunction2(event)"><span class="text">06.06.2023.</span>
         <span class="text">Design of a Project</span>
         <span class="text">HCI</span>
       </button>
-      <button class="button1" onclick="myFunction()"><span class="text">06.06.2023.</span>
+      <button class="button1" onclick="myFunction2(event)"><span class="text">06.06.2023.</span>
         <span class="text">Design of a Project</span>
         <span class="text">HCI</span>
       </button>
-      <button class="button2" onclick="myFunction()"><span class="text1">10.06.2023.</span>
+      <button class="button2" onclick="myFunction2(event)"><span class="text1">10.06.2023.</span>
         <span class="text1">Project 2</span>
         <span class="text1">OS</span>
       </button>
-      <button class="button2" onclick="myFunction()"><span class="text1">10.06.2023.</span>
+      <button class="button2" onclick="myFunction2(event)"><span class="text1">10.06.2023.</span>
         <span class="text1">Project 2</span>
         <span class="text1">OS</span>
       </button>
-      <button class="button2" onclick="myFunction()"><span class="text1">10.06.2023.</span>
+      <button class="button2" onclick="myFunction2(event)"><span class="text1">10.06.2023.</span>
         <span class="text1">Project 2</span>
         <span class="text1">OS</span>
       </button>
-      <button class="button2" onclick="myFunction()"><span class="text1">10.06.2023.</span>
+      <button class="button2" onclick="myFunction2(event)"><span class="text1">10.06.2023.</span>
         <span class="text1">Project 2</span>
         <span class="text1">OS</span>
       </button>
-      <button class="button2" onclick="myFunction()"><span class="text1">10.06.2023.</span>
+      <button class="button2" onclick="myFunction2(event)"><span class="text1">10.06.2023.</span>
         <span class="text1">Project 2</span>
         <span class="text1">OS</span>
       </button>
-      <button class="button2" onclick="myFunction()"><span class="text1">10.06.2023.</span>
+      <button class="button2" onclick="myFunction2(event)"><span class="text1">10.06.2023.</span>
         <span class="text1">Project 2</span>
         <span class="text1">OS</span>
       </button>
-      <button class="button2" onclick="myFunction()"><span class="text1">10.06.2023.</span>
+      <button class="button2" onclick="myFunction2(event)"><span class="text1">10.06.2023.</span>
         <span class="text1">Project 2</span>
         <span class="text1">OS</span>
       </button>
@@ -87,7 +98,7 @@
   </div>
 </div>
 
-        
+<script src="js/firstPage.js"></script>   
     </body>
 
 </html>
