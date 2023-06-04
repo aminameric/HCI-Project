@@ -146,12 +146,13 @@ nav {
   }
   
   .search-input {
-    width: 60%; 
+    width: 40%; 
     height: 100%;
     border: black;
     background-color: white;
     padding-left: 5%; 
     font-size: 16px;
+    margin-left: 20%;
   }
   
   .search-icon {
