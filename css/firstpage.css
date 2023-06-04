@@ -169,16 +169,14 @@ nav {
 }
 .button-courses-container .button {
   display: flex; 
-  margin-top: 0.5%;
-  margin-right: 5%;
-  margin-bottom: 2%;
+  margin:8px;
   color: #F78301;
   background: #FBFBFB;
   border: 1px solid #2E3532;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
   width: 200%; 
-  height: 45%; 
+  height: 40%; 
   max-height: 100%;
   /*padding: 9%; */
   padding: 1.2vw 0.1vw;
@@ -189,16 +187,16 @@ nav {
 
 .button-courses-container .button-new{
   display: flex; 
-  margin-bottom: 1.5%;
+  margin: 8px;
   color: #FBFBFB;
   background: #F78301;
   border: 1px solid #2E3532;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
   width: 200%; 
-  height: 45%; 
+  height: 40%; 
   max-height: 100%;
-  padding: 9%; 
+  padding: 1.2vw 0.1vw;
   font-size: 150%; 
   align-items: center;
   text-align: left;
