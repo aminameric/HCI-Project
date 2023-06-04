@@ -185,6 +185,7 @@ nav {
   font-size: 150%; 
   align-items: center;
   text-align: left;
+  cursor: pointer;
 }
 
 .button-courses-container .button-new{
@@ -202,6 +203,7 @@ nav {
   font-size: 150%; 
   align-items: center;
   text-align: left;
+  cursor: pointer;
 }
 .button-courses-container .button:hover{
   filter: drop-shadow(0px 7px 4px rgba(5, 0, 0, 0.3));
@@ -266,6 +268,7 @@ nav {
   font-size: 1vw; /* Adjust the value based on the button's width */
   text-align: center;
   white-space: nowrap;
+  cursor: pointer;
 }
 
 
@@ -286,7 +289,7 @@ nav {
   margin-right: 2%;
   margin-bottom: 2%; /* Adjust the value based on the container's height */
   padding: 0.vw 0.1vw; /* Adjust the value based on the container's dimensions */
-  
+  cursor: pointer;
   background: #FBFBFB;
   border: 1px solid #2E3532;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
