@@ -1,0 +1,37 @@
+.popup1 {
+    display: none;
+    position: fixed;
+    bottom:350px;
+    right: 5px; 
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    border: 1px solid #000;
+    padding: 20px;
+    z-index: 9999;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 30px;
+    
+}
+  
+  
+.popup h3 {
+    margin-top: 40px;
+}
+  
+.popup1 button {
+        background-color: #023047;;
+        color: white;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        width: 100px;
+       
+}
+
+  
+  
+  
+  
