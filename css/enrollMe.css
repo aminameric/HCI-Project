@@ -157,10 +157,11 @@ nav {
     font-size: 20px;
     color: #2e3532;    
     position: absolute;
-    left: 10px; 
+    left: 40%; 
     top: 50%;
     transform: translateY(-50%);
   }
+  
   
 .recommended-title{
     margin-top: 15px;
