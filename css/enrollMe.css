@@ -142,14 +142,15 @@ nav {
     display: flex;
     align-items: center;
     position: relative;
+    width: 100%;
   }
   
   .search-input {
-    width: 400px;
+    width: 60%; 
     height: 100%;
-    border: none;
-    background-color: transparent;
-    padding-left: 40px;
+    border: black;
+    background-color: white;
+    padding-left: 5%; 
     font-size: 16px;
   }
   
@@ -157,10 +158,11 @@ nav {
     font-size: 20px;
     color: #2e3532;    
     position: absolute;
-    left: 40%; 
+    left: 5%; 
     top: 50%;
     transform: translateY(-50%);
   }
+  
   
   
 .recommended-title{
