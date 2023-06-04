@@ -114,6 +114,7 @@ margin-top: 5px;
 }.container {
     display: flex;
     height: calc(100vh - 60px); 
+    font-family: "Gothic A1", sans-serif;
 }
 
 .left-section {
@@ -217,7 +218,7 @@ margin-top: 5px;
     padding: 10px;
     margin: 10px;
     max-width: 80%;
-    color: #fff;
+    color: black;
     font-size: 25px;
   }
   
@@ -234,7 +235,7 @@ margin-top: 5px;
   .person-name {
     top: 60px;
     background-color: #FDCE57; 
-    color: #fff;
+    color: black;
     font-size: 24px;
     padding: 10px;
     text-align: left;
